@@ -1,0 +1,15 @@
+@'
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+data/
+samples/
+*.zip
+.DS_Store
+Thumbs.db
+.vscode/
+'@ | Set-Content .gitignore -Encoding ascii
+venv/
+__pycache__/
